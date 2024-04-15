@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulario</title>
+</head>
+
+<body>
+  <form action="#">
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome">
+
+    <br><br>
+
+    <label for="emailUsu">E-mail:</label>
+    <input type="text" id="emailUsu">
+
+    <br><br>
+
+    <label for="listaUnidade">Lista de Unidades:</label>
+    <br><br>
+    <select name="listaUnidade" id="listaUnidade">
+      <option value="unidade" selected disabled>Unidades</option>
+      <!-- <option value="unidade" hidden>Unidades</option> -->
+      <option value="santana">Santana</option>
+      <option value="santo_amaro">Santo Amaro</option>
+      <option value="itaquera">Itaquera</option>
+      <option value="diadema">Diadema</option>
+    </select>
+    <br><br>
+
+    <p>DataList</p>
+
+    <input type="text" autocomplete="on" list="unidadeIos" placeholder="Unidades">
+
+    <datalist id="unidadeIos">
+      <option value="santana">Santana</option>
+      <option value="santo_amaro">Santo Amaro</option>
+      <option value="itaquera">Itaquera</option>
+      <option value="diadema">Diadema</option>
+    </datalist>
+
+    <br><br>
+
+    <input type="submit" value="Enviar">
+  </form>
+</body>
+
+</html>
