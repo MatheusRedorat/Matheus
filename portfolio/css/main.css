@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #000;
+    background-color: #262626;
     height: 100vh;
 }
 
@@ -31,8 +31,17 @@ body {
     transition: .2s;
 }
 
-/*ESTILO DO CABEÇALHO  */
+h2.titulo {
+    color: #F2F2F2;
+    font-size: 38px;
+    text-align: center;
+}
 
+h2.titulo span {
+    color: #1C61D9;
+}
+
+/*ESTILO DO CABEÇALHO  */
 header {
     padding: 40px 4%;
 }
@@ -56,7 +65,7 @@ header a {
 }
 
 header a:hover {
-    color: #F2F2F2;
+    color: #1C61D9;
     transform: scale(1.05);
 }
 
@@ -113,4 +122,35 @@ section.topo-do-site .flex{
     100%{
         top: 30px;
     }
+}
+
+/* EESTILO DA HABILIDADES */
+section.habilidades {
+    padding: 40px 4%;
+}
+
+section.habilidades .flex {
+    gap: 60px;
+}
+
+.habilidades .habilidades-box {
+    color: #F2F2F2;
+    padding: 40px;
+    border-radius: 20px;
+    margin-top: 45px;
+    transition: .2s;
+}
+
+.habilidades .habilidades-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #fff;
+}
+
+.habilidades .habilidades-box img {
+    height: 85px;
+}
+
+.habilidades .habilidades-box h3 {
+    font-size: 28px;
+    margin: 15px 0;
 }
